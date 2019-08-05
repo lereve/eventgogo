@@ -1,0 +1,7 @@
+1. WebJar 
+- WebJar란 ? : JQuery 나 Bootstrap 같은 클라이언트 사이트의 라이브러리를 jar로 하여, Java 라이브러리와 같은 요령으로
+Maven관 Gradle에 따라 관리할 수 있도록 한 서비스
+
+- 사용방법 : 
+  -. gradle이나 maven에 dependencies를 추가한다.(https://www.webjars.org/)
+  -. WebJar에 추가한 라이브러리를 webjar/ 이하 경로를 통해 접근할 수 있다.

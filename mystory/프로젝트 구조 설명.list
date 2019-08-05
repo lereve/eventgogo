@@ -1,0 +1,18 @@
+blog : 최상위 프로젝트.
+src.main.java : java 클래스 파일 모음.
+project.blog : 최상위 패키지.
+project.blog.common : 공통 클래스 모음. (유틸리티, 상수 등)
+project.blog.config : 설정 클래스 모음. (Web Security, Controller Advice 등)
+project.blog.controller : 컨트롤러 클래스 모음.
+project.blog.domain : 도메인 클래스 모음. 데이터베이스 테이블과 실제로 1:1 매핑되어 정확하게 관리.
+project.blog.dto : Input, Output 클래스 모음. domain 클래스와 비슷할 수 있지만, View 와 인터페이스 하기 위한 클래스.
+project.blog.repository : 데이터베이스 접근하는 클래스 모음. DAO(Data Access Object) 와 비슷한 개념으로 JPA 를 사용한 클래스.
+project.blog.service : 비즈니스 혹은 사용자 로직을 구현한 클래스. 비즈니스와 연관있는 로직을 표현.
+project.blog.BlogApplication.java : Spring Boot 실행 클래스.
+src.test.java : java 테스트를 위한 클래스 파일 모음.
+src.main.resources : 프로젝트에 필요한 리소스 파일 모음. HTML, javascript, image, css, third party library 등을 관리.
+template : HTML 파일 모음.
+static : 정적 자원들 모음. javascript, image, css, third party library 를 위치.
+application.yml : Spring Boot 설정 파일. 실행 포트, Datasource 등을 지정.
+build.gradle : 프로젝트 Version, Dependency 등을 설정
+init.mysql.sql : MySQL 버전의 초기 로딩 DDL 파일.
